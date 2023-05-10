@@ -1,0 +1,52 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "TestProject"
+include ':app'
+include ':ch6_view'
+include ':ch7_layout'
+include ':ch8_event'
+include ':ch9_resource'
+include ':ch10_notification'
+include ':ch11_jetpack'
+include ':ch12_material'
+include ':ch13_activity'
+include ':ch14_receiver'
+include ':ch15_outer'
+include ':ch15_service'
+include ':ch16_provider'
+include ':ch17_database'
+include ':ch18_network'
+include ':ch19_map'
+include ':ch20_firebase'
+include ':Test4'
+include ':test7'
+include ':Test5'
+include ':test6'
+include ':test9'
+include ':test8'
+include ':test_outer'
+include ':test10'
+include ':test11'
+include ':test12'
+include ':test13'
+include ':Test3'
+include ':test14'
+include ':test15'
+include ':test16'
+include ':test17'
+include ':test18'
+include ':test19'
+include ':myapplication'
+include ':ch8_event2'
