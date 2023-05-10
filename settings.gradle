@@ -16,3 +16,4 @@ rootProject.name = "AndroidLab0509_Start"
 include ':app'
 include ':myapplication5959'
 include ':androidhaja'
+include ':ExTest0221'
