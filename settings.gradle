@@ -15,5 +15,9 @@ dependencyResolutionManagement {
 rootProject.name = "AndroidLab0509_Start"
 include ':app'
 include ':myapplication5959'
-include ':androidhaja'
 include ':ExTest0221'
+include ':ch06'
+include ':ch07'
+include ':ch08'
+include ':ch08test'
+include ':ch09'

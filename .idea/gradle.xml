@@ -11,8 +11,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ExTest0221" />
-            <option value="$PROJECT_DIR$/androidhaja" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ch06" />
+            <option value="$PROJECT_DIR$/ch07" />
+            <option value="$PROJECT_DIR$/ch08" />
+            <option value="$PROJECT_DIR$/ch08test" />
+            <option value="$PROJECT_DIR$/ch09" />
             <option value="$PROJECT_DIR$/myapplication5959" />
           </set>
         </option>
