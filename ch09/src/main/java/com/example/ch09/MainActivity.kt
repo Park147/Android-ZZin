@@ -24,13 +24,13 @@ class MainActivity : AppCompatActivity() {
             val windowMetrics: WindowMetrics = windowManager.currentWindowMetrics
             Log.d(
                 "psh",
-                "widthA:${windowMetrics.bounds.width()}, " + "height: ${windowMetrics.bounds.height()}"
-            )
+                "widthA:${windowMetrics.bounds.width()}, " + "height: ${windowMetrics.bounds.height()}")
+
         }else{
             val display = windowManager.defaultDisplay
             val displayMetrics = DisplayMetrics()
             display?.getRealMetrics(displayMetrics)
-            Log.d("psh", "width": ${displayMetrics.widthPixels}, " + "height: ${displayMetrics.heightPixels}.)
+            Log.d("psh", "width: ${displayMetrics.widthPixels}, " + "height: ${displayMetrics.heightPixels}")
         }
         }
 }

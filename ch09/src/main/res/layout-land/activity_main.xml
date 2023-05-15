@@ -1,63 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:ignore="ExtraText">
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@android:drawable/ic_dialog_alert"></ImageView>
-
-    <TextView
-        android:id="@+id/textView2"
-        style="@style/MySubStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="스타일 상속 사용 및 적용하기"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="0dp" />
-
+        android:src="@android:drawable/btn_star_big_on"></ImageView>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/bmjuattf"
-        android:text="버튼 상태 확인"
-        android:textSize="15dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="32dp" />
+        android:text="버튼 컬러 상태 확인"
+        android:textSize="30dp"
+        android:textColor="@color/colors"/>
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/button"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="364dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스타일 상속 사용 및 적용하기"
+        style="@style/MySubStyle"/>
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/test"
-        android:textColor="@color/mainColor"
         android:textSize="@dimen/basicFontSize"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="302dp" />
+        android:textColor="@color/mainColor"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/button"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Hello olleh"/>
 
 </LinearLayout>

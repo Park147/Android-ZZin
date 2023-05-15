@@ -8,12 +8,14 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="버튼1"
         android:textSize="30dp"/>
 
     <CheckBox
+        android:id="@+id/check1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="체크박스1"
