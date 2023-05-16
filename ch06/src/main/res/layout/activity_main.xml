@@ -23,7 +23,7 @@
         android:text="grin4mation@gmail.com, 주소:https://www.naver.com"
         android:textSize="30sp"
         android:fontFamily="@font/bmjuattf"
-        android:autoLink="email"
+        android:autoLink="email|web"
         />
 
     <LinearLayout
@@ -63,8 +63,8 @@
 
     <ImageView
         android:id="@+id/img1"
-        android:layout_width="500dp"
-        android:layout_height="400dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/and"
         android:maxHeight="500dp"
         android:maxWidth="400dp"
@@ -72,26 +72,20 @@
         />
 
     <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="안녕. 세계!" android:fontFamily="@font/bmjuattf"
-      android:textColor="#E91E63"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="박서현"
+        android:textSize="30sp"
+        android:textColor="#653434"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="박서현"
-        android:fontFamily="@font/bmjuattf"
+        android:text="안녕. 세계!" android:fontFamily="@font/bmjuattf"
+        android:textColor="#E91E63"
         android:textSize="30sp"
-        android:textColor="#653434"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-        />
-
   </LinearLayout>
