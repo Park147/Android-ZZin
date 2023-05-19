@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() { // AppcompatActivity 부모 클래스
     // 코드 작업 공간, 뷰 작업도 가능, but View-> Xml 에서만 작업.
     // 여긴 데이터 관련 작업 및 이벤트 핸들러 작업하는 곳! 가독성,유지보수 위하여
     override fun onCreate(savedInstanceState: Bundle?) { //onCreate 액티비티의 생명주기에서 자세히 later)ch13.
-        super.onCreate(savedInstanceState) // savedInstanceState -> 저장소 개념 ch16. 객체에 저장
+        super.onCreate(savedInstanceState) // savedInstanceState -> 저장소 개념 test17_2. 객체에 저장
         // res -> layout -> xml 파일 불러서 실제 화면을 출력!
         // 리소스 R.java 파일이라는 곳에 상수 값으로 저장되는데, 여기서 불러옴.
         // So 코드에서 resource 값을 불러올 때! 항상 R.layout 등으로 시작 해서 불러옴.

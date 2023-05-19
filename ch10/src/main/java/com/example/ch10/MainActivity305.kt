@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.SystemClock
 import androidx.core.app.NotificationCompat
+import com.example.ch10.databinding.ActivityMain305Binding
 import kotlin.concurrent.thread
 
 class MainActivity305 : AppCompatActivity() {
@@ -16,7 +17,7 @@ class MainActivity305 : AppCompatActivity() {
     // 테스트 가능함.
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = ActivityMain303Binding.inflate(layoutInflater)
+        val binding = ActivityMain305Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.button.setOnClickListener {
@@ -61,7 +62,7 @@ class MainActivity305 : AppCompatActivity() {
             // 스레드 업그레이드 -> 경량식 스레드 -> 코루틴 작업을 함.
             // 실제로 많은 외부 API들은 이미 코루틴 기법을 이용해서 비동기적으로 작업을 많이 함.
             // 일단, 현재 우리는 잘 이용하는 것에 초점을 두고, 수준이 올라오면 그때 API나 라이브러리를 만들어서 이용하면 됨!.
-            // 스레드 참고자료 쌤 git - ch16_Thread_~
+            // 스레드 참고자료 쌤 git - test17_2_Thread_~
             thread {
                 for (i in 1..100){
                     builder.setProgress(100, i, true)
