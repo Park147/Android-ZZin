@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ExTest0221" />
+            <option value="$PROJECT_DIR$/androidtest" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/ch06" />
             <option value="$PROJECT_DIR$/ch07" />
@@ -22,8 +23,12 @@
             <option value="$PROJECT_DIR$/ch13" />
             <option value="$PROJECT_DIR$/ch13test" />
             <option value="$PROJECT_DIR$/ch17" />
+            <option value="$PROJECT_DIR$/ch17_test" />
             <option value="$PROJECT_DIR$/myapplication5959" />
             <option value="$PROJECT_DIR$/test1216" />
+            <option value="$PROJECT_DIR$/test17" />
+            <option value="$PROJECT_DIR$/test17-4" />
+            <option value="$PROJECT_DIR$/test17-crud" />
             <option value="$PROJECT_DIR$/test17_2" />
             <option value="$PROJECT_DIR$/test17_2test" />
           </set>
