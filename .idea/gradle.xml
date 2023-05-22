@@ -24,6 +24,7 @@
             <option value="$PROJECT_DIR$/ch13test" />
             <option value="$PROJECT_DIR$/ch17" />
             <option value="$PROJECT_DIR$/ch17_test" />
+            <option value="$PROJECT_DIR$/ch18_net_test1" />
             <option value="$PROJECT_DIR$/myapplication5959" />
             <option value="$PROJECT_DIR$/test1216" />
             <option value="$PROJECT_DIR$/test17" />
@@ -31,6 +32,9 @@
             <option value="$PROJECT_DIR$/test17-crud" />
             <option value="$PROJECT_DIR$/test17_2" />
             <option value="$PROJECT_DIR$/test17_2test" />
+            <option value="$PROJECT_DIR$/test18" />
+            <option value="$PROJECT_DIR$/test18-publicdata" />
+            <option value="$PROJECT_DIR$/test18_newsapi" />
           </set>
         </option>
       </GradleProjectSettings>
